@@ -1,1 +1,1 @@
-console.log("hello world from 01 directory");
+console.log('hello world from 01 directory')

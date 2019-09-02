@@ -1,3 +1,3 @@
-import { hello } from "./common";
+import { hello } from './common'
 
-hello("02 directory | about page");
+hello('02 directory | about page')

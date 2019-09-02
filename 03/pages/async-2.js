@@ -1,5 +1,5 @@
-console.log(`page ${__filename} loaded`);
+console.log(`page ${__filename} loaded`)
 
 export const render = () => {
-    console.log(`page ${__filename} rendered`);
+	console.log(`page ${__filename} rendered`)
 }
