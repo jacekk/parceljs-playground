@@ -5,16 +5,20 @@
   "author": "JacekK",
   "license": "MIT",
   "scripts": {
-    "build:01": "rimraf ./dist && parcel build ./01/index.html",
+    "build:01": "rimraf ./dist && parcel build ./01/*.html",
     "build:02": "rimraf ./dist && parcel build ./02/*.html",
     "build:03": "rimraf ./dist && parcel build ./03/*.html",
-    "serve:01": "parcel ./01/index.html",
+    "build:04": "rimraf ./dist && parcel build ./04/*.html",
+    "serve:01": "parcel ./01/*.html",
     "serve:02": "parcel ./02/*.html",
     "serve:03": "parcel ./03/*.html",
+    "serve:04": "parcel ./04/*.html",
     "serve": "serve ./dist"
   },
   "dependencies": {
     "parcel-bundler": "^1.12.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "rimraf": "^3.0.0",
     "serve": "^11.1.0"
   }
