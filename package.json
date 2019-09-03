@@ -10,12 +10,14 @@
     "build:03": "rimraf ./dist && parcel build ./03/*.html",
     "build:04": "rimraf ./dist && parcel build ./04/*.html",
     "build:05": "rimraf ./dist && parcel build ./05/*.html",
+    "build:06": "rimraf ./dist && parcel build ./06/*.html",
     "clear": "rimraf ./dist ./.cache",
     "serve:01": "parcel ./01/*.html",
     "serve:02": "parcel ./02/*.html",
     "serve:03": "parcel ./03/*.html",
     "serve:04": "parcel ./04/*.html",
     "serve:05": "parcel ./05/*.html",
+    "serve:06": "parcel ./06/*.html",
     "serve": "serve ./dist"
   },
   "dependencies": {
@@ -33,6 +35,7 @@
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.0.0",
+    "coffeescript": "^2.4.1",
     "vue-template-compiler": "^2.6.10"
   }
 }
