@@ -8,3 +8,4 @@ https://parceljs.org/
 - 02 - html + js setup with js import
 - 03 - js dynamic imports
 - 04 - react app
+- 05 - vue app

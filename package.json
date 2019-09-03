@@ -9,10 +9,12 @@
     "build:02": "rimraf ./dist && parcel build ./02/*.html",
     "build:03": "rimraf ./dist && parcel build ./03/*.html",
     "build:04": "rimraf ./dist && parcel build ./04/*.html",
+    "build:05": "rimraf ./dist && parcel build ./05/*.html",
     "serve:01": "parcel ./01/*.html",
     "serve:02": "parcel ./02/*.html",
     "serve:03": "parcel ./03/*.html",
     "serve:04": "parcel ./04/*.html",
+    "serve:05": "parcel ./05/*.html",
     "serve": "serve ./dist"
   },
   "dependencies": {
@@ -23,6 +25,13 @@
     "react-loadable": "^5.5.0",
     "rimraf": "^3.0.0",
     "sass": "^1.22.10",
-    "serve": "^11.1.0"
+    "serve": "^11.1.0",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-router": "^3.1.3"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "vue-template-compiler": "^2.6.10"
   }
 }
