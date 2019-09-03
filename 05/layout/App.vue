@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import logoPath from '../images/app-logo.png'
+import logoPath from '../../images/app-logo.png'
 
 export default {
 	name: 'app',

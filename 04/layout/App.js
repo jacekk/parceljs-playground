@@ -1,7 +1,7 @@
 import { Link } from '@reach/router'
 import React from 'react'
 
-import logoPath from '../images/app-logo.png'
+import logoPath from '../../images/app-logo.png'
 
 import { Routes } from './Routes'
 import './App.sass'
